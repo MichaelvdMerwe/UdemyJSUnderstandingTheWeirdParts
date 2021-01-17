@@ -1,0 +1,3 @@
+Single Threaded: Refers to the fact that something executes command at a time
+
+Synchronous: One at a time in order

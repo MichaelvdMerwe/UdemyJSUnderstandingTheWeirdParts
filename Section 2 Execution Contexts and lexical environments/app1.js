@@ -41,3 +41,22 @@ var e = "some text"
 console.log(e); //outputs "some text"
 
 //===============================================================================================================================================
+
+function f(){
+}
+
+function g(){
+    f();
+}
+
+g();
+
+// global execution context is created(this/window)
+// attatches the functions to the global context during the creation phase
+// during the execution phase it will invoke g
+// this then creates a new execution context for g() (function call stack, will be done later)
+// once that is done it will execute the context for g() and create a new execution context for f()
+
+// EVERY FUNCTION IN JS WILL GO THROUGH A CREATION PHASE(which sets up the global execution context) and then execute the functions
+
+// Once a funciton is finished with the execution phase the function is popped off the execution stack and execution of the next function will start

@@ -21,3 +21,22 @@ DO NOT RELY ON HOISTING AS IT CAN CAUSE CONFUSION AND MAKE CODE HARDER TO INTERP
 
 PHASE 1: CREATION PHASE
 PHASE 2: EXECUTION PHASE
+
+
+Variable Environment: Where the variables live and how they relate to each other in memory
+
+SCOPE is where a variable is available in your code
+
+ES6: CONST LET AND VAR
+
+const is most frequently used. Once declared it cannot be reasigned. Immutibility is a big thing in JS
+let works like var but comes with block scoping, simplifies the use of this
+var is rarely used nowadays as the other options have far more benefit
+
+WHAT ABOUT ASYNCHRONOUS CALL BACKS???
+
+ASYNCHRONOUS: More than 1 at a time.
+
+The browser itself is composed of many different engines and apis. Such as the JS engine, rendering engine and http requests.
+
+Only what happens in the JS engine is synchronous, it can however interact with the other parts and let them handle certain things. Once completed the javascript engine will invoke the callback functions(found on the event queue);
