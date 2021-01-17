@@ -1,0 +1,6 @@
+Syntax Parser: Its a program that reads and evaluates your code and syntax to determine what it does
+
+Lexical environment: Where something sits physically in the code you write
+
+Execution Context: A wrapper to help manage the code that is running
+

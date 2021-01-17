@@ -1,0 +1,5 @@
+Name/Value pair: A name which maps to a unique Value
+The name can be defined more than once, but can only have one value in any given context
+That value may be more name/value pairs
+
+Object: Collection of name value pairs

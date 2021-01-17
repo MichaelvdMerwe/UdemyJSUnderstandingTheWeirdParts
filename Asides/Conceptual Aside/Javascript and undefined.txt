@@ -1,0 +1,4 @@
+value is not defined error(reference exception) is different from undefined
+
+undefined is a special value that indicates that the variable exists in memory but has not yet been given a defintion
+

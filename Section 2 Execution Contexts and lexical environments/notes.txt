@@ -1,0 +1,23 @@
+global object execution context can be accesed by calling 'this'. This refers to the outer execution context, at the base level it refers to the global(window) object
+With the basic above code when its run and you call this(window) you will see that those variables/functions are declared on that object
+Another important note is that the execution context has a lot of stuff in it that you did not write, this is part of the global object and the javascript engine is what is doing this for you
+
+In most programming languages calling something before its declared will cause an error. However due to hoisting this is not the case. The value for the variable will however still be undefined.
+
+Think about the execution context as a high level wrapper that concatenates everything outside of the local scope to a single object. 
+Everytime you execute a function the global scope is moved down a level(with everything preceeding it as well) to the scope just outside of the block.
+This is where 'this' comes in to play in javascript(outer execution context);
+
+Hoisting:
+
+JS works in a 2 pass compilation approach. During the first pass it declares and creates all objects that it finds and hoists it up to the global scope. 
+So on its first pass it allocates memory for the declared variables, functions and objects, on the second pass it executes the code line by line.
+Functions are however hoisted with their declarations as well making them executable
+Variables that are hoisted are given an undefined placeholder until execution phase
+
+Execution Context is created during the creation phase
+
+DO NOT RELY ON HOISTING AS IT CAN CAUSE CONFUSION AND MAKE CODE HARDER TO INTERPRET. Be aware of how it works so that you can structure your code correctly
+
+PHASE 1: CREATION PHASE
+PHASE 2: EXECUTION PHASE
