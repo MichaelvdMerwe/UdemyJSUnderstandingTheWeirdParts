@@ -1,0 +1,9 @@
+Coercion:
+Converting a value from one type to another
+happens quite frequently in JS because its dynamically typed
+
+== coerces types and checks the value
+
+=== the strict equality operator always considers operands of different types to be different
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness

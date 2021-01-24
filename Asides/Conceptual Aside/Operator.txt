@@ -1,0 +1,9 @@
+Operator: 
+A Special Function that is syntacticatlly differeny, generally takes two parameters and returns one result
+
+Operator precedence
+Functions are called in order of precedence(higher precedence wins)
+
+Operator Associativity:
+What order Operator functions get called in: Left to right or right to Left
+

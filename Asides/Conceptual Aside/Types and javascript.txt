@@ -1,0 +1,22 @@
+Dynamic typing:
+You dont tell the engine what type of data a variable holds, it figures it out while your code is running
+
+Static Typing:
+ bool isNew = "hello" //errors
+
+Dynamic Typing:
+ var isNew = true
+ isNew = "hello"
+ isNew = 1
+ //no errors
+
+Primitive types in javascript:
+It is a type of data that represents a single value
+
+1. Undefined: Lack of existence(used by compiler)
+2. Null: Lack of existence(used by developer)
+3. Boolean: true or false
+4. Number: javascript only has a floating point number, can be faked but makes math a little weird
+5. String: a sequence of characters
+6. Symbol: Used in ES6+
+
