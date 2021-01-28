@@ -1,0 +1,4 @@
+Namespace: 
+Container for variables and functions
+
+note in app3.js

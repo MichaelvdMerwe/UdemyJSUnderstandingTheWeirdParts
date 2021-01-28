@@ -1,0 +1,13 @@
+b = a;
+a = 3;
+Pass by value
+b and a have different memory locations, so when this is invoked it assigns the value to the memory space of b from the memory space of a.
+
+b = a;
+a = {};
+
+Pass by reference
+the object is stored in memory and a is pointed to that memory location, when you invoke b = a, b is assigned the same memory location as a, so they both point to the same place
+
+Mutate:
+To change something, immutable means that it cannot be changed
