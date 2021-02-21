@@ -1,0 +1,13 @@
+var
+    // firstname of person
+    firstname,
+
+    //lastname of a person
+    lastname;
+
+var person = {
+    //first name of person
+    firstname: 'John',
+}
+
+js is very liberal with white space and you can use this to your advantage by commenting things as much as possible

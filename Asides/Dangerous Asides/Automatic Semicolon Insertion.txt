@@ -1,0 +1,1 @@
+Semicolons are optional in javascript, but could cause issues because it inserts semicolons for you. So just add semicolons to avoid the problem;
